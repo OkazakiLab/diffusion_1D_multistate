@@ -1,5 +1,5 @@
 # diffusion_1D_multistate
-Estimates 1D diffusion model from simulation/single-molecule trajectories.
+Estimates 1D diffusion model with chemical-state dependent free energy profile from simulation/single-molecule trajectories.
 ## Installation
 First, clone or download the repository,
 ```
@@ -44,3 +44,6 @@ ratef_switch  100.0
 rateb_switch  1.0
 xshift  1.0
 ```
+
+## Reference
+K. Okazaki, A. Nakamura and R. Iino “Chemical-State-Dependent Free Energy Profile from Single-Molecule Trajectories of Biomolecular Motors: Application to Processive Chitinase”, J. Phys. Chem. B 124, 30, 6475−6487 (2020)
