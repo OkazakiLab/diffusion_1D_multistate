@@ -1,0 +1,21 @@
+
+Compile:
+$ g++ -o ../diffusion_1D_multistate -O2 -std=c++11 diffusion_1D_multistate.cpp
+
+--
+Compile for debugging:
+$ g++ -o ../diffusion_1D_multistate -ggdb -O2 -std=c++11 diffusion_1D_multistate.cpp
+
+Run:
+$ gdb ~/../diffusion_1D_multisurf
+(gdb) run [input file]
+(gdb) bt               <- back tracing
+(gdb) q                <- quit
+--
+
+Compile error of 'nr3.h' with g++ 4.8:
+
+In 'nr3mod.h', 'throw' keyword is replaced with 'NRthrow' to fix the error.
+
+--
+
