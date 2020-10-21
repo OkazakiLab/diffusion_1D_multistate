@@ -44,7 +44,15 @@ ratef_switch  100.0
 rateb_switch  1.0
 xshift  1.0
 ```
-where 
+## Analysis
+Jupyter notebook 'matplot_diffusion_1D_multistate.ipynb' or python script 'matplot_diffusion_1D_multistate.py' can be used for analysis/plotting,
+```
+jupyter notebook
+```
+or 
+```
+python2.7 matplot_diffusion_1D_multistate.py
+```
 
 ## Reference
-K. Okazaki, A. Nakamura and R. Iino “Chemical-State-Dependent Free Energy Profile from Single-Molecule Trajectories of Biomolecular Motors: Application to Processive Chitinase”, J. Phys. Chem. B 124, 30, 6475−6487 (2020)
+K. Okazaki, A. Nakamura and R. Iino “Chemical-State-Dependent Free Energy Profile from Single-Molecule Trajectories of Biomolecular Motors: Application to Processive Chitinase”, J. Phys. Chem. B 124, 30, 6475−6487 (2020) https://doi.org/10.1021/acs.jpcb.0c02698
