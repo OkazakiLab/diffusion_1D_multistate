@@ -6,7 +6,7 @@ First, clone or download the repository,
 git clone https://github.com/OkazakiLab/diffusion_1D_multistate.git
 cd diffusion_1D_multistate/
 ```
-Then, go to src/ directory and compile with a C++ compiler,
+Then, go to src/ directory and compile it with a C++ compiler,
 ```
 cd src/
 g++ -o ../diffusion_1D_multistate -O2 -std=c++11 diffusion_1D_multistate.cpp
@@ -45,6 +45,7 @@ ratef_switch  100.0
 rateb_switch  1.0
 xshift  1.0
 ```
+With this set of parameters, it estimates free energy profiles and diffusion coefficients by pd-HMM (ctrl=3) with the total number of MC iteration of 500 (nmc).
 ## Analysis/Plotting
 Jupyter notebook 'matplot_diffusion_1D_multistate.ipynb' or python script 'matplot_diffusion_1D_multistate.py' can be used for analysis/plotting,
 ```
