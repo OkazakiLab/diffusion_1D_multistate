@@ -1,5 +1,5 @@
 # diffusion_1D_multistate
-Estimates 1D diffusion model with chemical-state-dependent free energy profile from simulation/single-molecule trajectories.
+Estimates a 1D diffusion model with chemical-state-dependent free energy profile from simulation/single-molecule trajectories.
 ## Installation
 First, clone or download the repository,
 ```
