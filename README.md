@@ -23,7 +23,7 @@ cd example/
 bash run.bash
 ```
 ## Parameters
-A set of parameters that can be set in 'para',
+A set of parameters that can be set in './example/para',
 ```
 ctrl  3
 ctrl_sa  0
@@ -45,7 +45,7 @@ ratef_switch  100.0
 rateb_switch  1.0
 xshift  1.0
 ```
-## Analysis
+## Analysis/Plotting
 Jupyter notebook 'matplot_diffusion_1D_multistate.ipynb' or python script 'matplot_diffusion_1D_multistate.py' can be used for analysis/plotting,
 ```
 jupyter notebook
