@@ -28,8 +28,8 @@ A set of parameters that can be set in 'para',
 ctrl  3
 ctrl_sa  0
 replicate  1
-nmc  1000
-nmc_update_stop  500
+nmc  500
+nmc_update_stop  250
 nmc_sa  0
 k_sa  0.02
 dx  0.1
