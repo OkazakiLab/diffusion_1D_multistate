@@ -17,8 +17,9 @@ g++ -o ../diffusion_1D_multistate -O2 -std=c++11 diffusion_1D_multistate.cpp
 ```
 Some parameters can be set in the 'para' file.
 ## Example
-'run.bash' runs a test analysis of 30 simulation trajectories in traj/ directory,
+'./example/run.bash' runs a test analysis of 30 simulation trajectories in traj/ directory,
 ```
+cd example/
 bash run.bash
 ```
 ## Parameters
