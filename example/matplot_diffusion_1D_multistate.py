@@ -198,7 +198,7 @@ dt0 = 0.000001
 for itraj in range(30):
     print('itraj=',itraj)
     filehmm = 'hmmpd_prob_traj'+str(itraj)+'.out'
-    filetraj = './traj/trajectory_burnt-bridge_traj'+str(itraj)+'.out'
+    filetraj = '../traj/trajectory_burnt-bridge_traj'+str(itraj)+'.out'
     A = np.loadtxt(filehmm)
     B = np.loadtxt(filetraj)
     fileeps = 'hmmpd_prob_traj'+str(itraj)+'.eps'
