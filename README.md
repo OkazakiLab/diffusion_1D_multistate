@@ -45,7 +45,7 @@ ratef_switch  100.0
 rateb_switch  1.0
 xshift  1.0
 ```
-With this set of parameters, it estimates free energy profiles and diffusion coefficients by pd-HMM (ctrl=3) with the total number of MC iteration of 500 (nmc).
+With this set of parameters, it estimates free energy profiles and diffusion coefficients by pd-HMM (ctrl=3) with the total number of MC iteration of 500 (nmc). Other parameters such as the number of states and the number of bins are specified in the source code (diffusion_1D_multistate.cpp).
 ## Analysis/Plotting
 Jupyter notebook 'matplot_diffusion_1D_multistate.ipynb' or python script 'matplot_diffusion_1D_multistate.py' can be used for analysis/plotting,
 ```
